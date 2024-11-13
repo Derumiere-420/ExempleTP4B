@@ -141,6 +141,7 @@ namespace PostHubServer.Controllers
             } while (comment != null && comment.User == null && comment.GetSubCommentTotal() == 0);
 
             return Ok(new { Message = "Commentaire supprimé." });
+            //comment 1
         }
     }
 }
