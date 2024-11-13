@@ -98,6 +98,6 @@ namespace PostHubServer.Controllers
             if (hub == null) return NotFound();
 
             return Ok(new { Message = hub.Users!.Contains(user) ? "Hub rejoint." : "Hub quitté." });
-        }
+        }//comment A
     }
 }
