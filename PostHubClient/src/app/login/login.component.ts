@@ -29,5 +29,6 @@ export class LoginComponent {
 
     this.router.navigate(["/postList", "index"]);
   }
+  //coment
 
 }

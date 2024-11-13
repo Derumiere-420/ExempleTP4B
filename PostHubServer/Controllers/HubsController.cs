@@ -99,7 +99,7 @@ namespace PostHubServer.Controllers
 
             return Ok(new { Message = hub.Users!.Contains(user) ? "Hub rejoint." : "Hub quitté." });
         }//comment A
-        }//comment_B
+        //comment_B
 
     }
 }
